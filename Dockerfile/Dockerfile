@@ -1,3 +1,3 @@
-FROM registry.access.redhat.com/openshift3/jenkins-2-rhel7
+FROM registry.redhat.io/openshift4/ose-jenkins
 COPY plugins.txt /opt/openshift/configuration/plugins.txt
 RUN /usr/local/bin/install-plugins.sh /opt/openshift/configuration/plugins.txt
