@@ -17,7 +17,6 @@ extra-columns:1.22
 favorite:2.3.2
 subversion:2.13.1
 warnings-ng:8.3.0
-prisma-cloud-jenkins-plugin:20.04.177
 blueocean-web:1.23.2
 blueocean-github-pipeline:1.23.2
 jaxb:2.3.0.1
@@ -165,4 +164,3 @@ pipeline-graph-analysis:1.10
 jquery-detached:1.2.1
 antisamy-markup-formatter:2.1
 snakeyaml-api:1.26.4
-
