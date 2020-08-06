@@ -6,7 +6,7 @@
     "creationTimestamp": null,
     "annotations": {
       "openshift.io/display-name": "Jenkins (persistent) - Latest",
-      "description": "Jenkins service, without persistent storage.\n\nWARNING: Any data stored will be lost upon pod destruction. Only use this template for testing.",
+      "description": "Jenkins service, wit persistent storage.
       "iconClass": "icon-jenkins",
       "tags": "instant-app,jenkins"
     }
@@ -258,7 +258,7 @@
       "name": "MEMORY_LIMIT",
       "displayName": "Memory Limit",
       "description": "Maximum amount of memory the container can use.",
-      "value": "2048Gi"
+      "value": "2048Mi"
     },
     {
       "name": "NAMESPACE",
@@ -280,6 +280,6 @@
     }
   ],
   "labels": {
-    "template": "jenkins-ephemeral-template"
+    "template": "jenkins-persistent-template"
   }
 }
