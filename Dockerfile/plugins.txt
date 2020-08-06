@@ -59,7 +59,6 @@ configuration-as-code:1.42
 blueocean-display-url:2.3.1
 bootstrap4-api:4.5.0-2
 docker-commons:1.16
-devoptics:1.1863
 github-api:1.115
 plain-credentials:1.7
 pipeline-model-declarative-agent:1.1.1
