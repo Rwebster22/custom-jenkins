@@ -59,7 +59,6 @@ configuration-as-code:1.42
 blueocean-display-url:2.3.1
 bootstrap4-api:4.5.0-2
 docker-commons:1.16
-devoptics:1.1863
 github-api:1.115
 plain-credentials:1.7
 pipeline-model-declarative-agent:1.1.1
@@ -107,7 +106,6 @@ data-tables-api:1.10.21-2
 template-project:1.5.2
 kubernetes-client-api:4.9.2-2
 pipeline-model-api:1.7.1
-cloudbees-bitbucket-branch-source:2.9.0
 pipeline-build-step:2.12
 jira:3.1.1
 maven-plugin:3.7
