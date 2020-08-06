@@ -36,7 +36,7 @@ parameters:
 - description: Name of the ImageStreamTag to be used for the Jenkins image.
   displayName: Jenkins Image to use (format: [image]:[tag])
   name: JENKINS_IMAGE
-  value: "docker.io/clrxm/custom-jenkins:latest"
+  value: "registry.devapps.c3ms.org/custom-jenkins/custom-jenkins:latest"
 objects:
 - apiVersion: v1
   kind: ServiceAccount
